@@ -109,7 +109,7 @@
             size: 50%;
             color: #007bff;
             background-color: #fff;
-            outline: 2px solid white;
+            outline-color: white;
         }
         
         #content {
