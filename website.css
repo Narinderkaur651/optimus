@@ -1,1 +1,157 @@
-body{background-color:red;}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /*--------body----------*/
+        
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        /*-------------navbar--------*/
+        
+        #navbar {
+            width: 100vw;
+            border-bottom: 2px solid #007bff;
+            display: flex;
+            position: fixed;
+            background-color: #333;
+            opacity: 0.8;
+            top: 0;
+        }
+        
+        #nav-container {
+            padding: 1.5%;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+        
+        ul li {
+            list-style: none;
+            display: inline-block;
+            margin-left: 3%;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        #logo {
+            padding-left: 5%;
+            font-size: 20px;
+        }
+        
+        #navbar-ul {
+            display: flex;
+            width: 100vw;
+            margin-left: 60%;
+            justify-content: right;
+        }
+        /*--------------------header---------------*/
+        
+        body {
+            background-image: url("img/home.jpg");
+            opacity: 0.8;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-origin: border-box;
+            background-size: 100vw 100vh;
+        }
+        /*------------left side-------*/
+        
+        #inner-box {
+            width: 99vw;
+        }
+        
+        .container {
+            margin-top: 15%;
+            width: auto;
+            overflow: hidden;
+            padding-left: 10%;
+        }
+        
+        h1 {
+            font-weight: 100;
+            font-size: 50px;
+            margin-bottom: 2%;
+        }
+        
+        .rows {
+            display: grid;
+            grid-template-rows: auto auto auto;
+            grid-template-columns: auto auto;
+            margin-right: 8%;
+            width: auto;
+        }
+        
+        .div-content {
+            font-size: 20px;
+            margin-bottom: 2%;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            color: whitesmoke;
+        }
+        
+        .icon {
+            padding-left: 20%;
+            margin-right: 40%;
+        }
+        
+        .icon i {
+            padding: 5%;
+            size: 50%;
+            color: #007bff;
+            background-color: #fff;
+            outline: 2px solid white;
+        }
+        
+        #content {
+            margin-right: 10%;
+            text-align: left;
+            padding-right: 10%;
+            width: 100%;
+        }
+        /*----------right side----*/
+        
+        .form-div {
+            padding-right: 10%;
+            padding-top: 10%;
+            background-color: #007bff;
+            padding-left: 10%;
+            margin-right: 30%;
+            width: 100%;
+            margin-bottom: 80%;
+            border-radius: 5px;
+            padding-bottom: 10%;
+            font-size: 20px;
+            box-shadow: 2px 2px 2px #007bff;
+        }
+        
+        form input {
+            padding: 5%;
+            width: 100%;
+            margin-bottom: 5%;
+            border-radius: 10%;
+            border: 2px solid white;
+        }
+        
+        input placeholder {
+            padding-top: 2%;
+        }
+        
+        form input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+        }
+        
+        form input[type="submit"]:hover {
+            background-color: white;
+            color: black;
+        }
