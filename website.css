@@ -365,3 +365,32 @@
         .col-33 {
             padding-left: 15%;
         }
+        /*----------------CONTACT-----*/
+        
+        #container6 {
+            background-color: #343a40;
+            display: flex;
+            justify-content: center;
+            padding: 3%;
+        }
+        
+        #container6 h1 {
+            font-weight: bold;
+            font-size: 30px;
+        }
+        
+        #container6 p {
+            padding-bottom: %;
+            margin-left: 2%;
+            font-size: 20px;
+        }
+        
+        #container6 button {
+            padding: 6%;
+            color: white;
+            background-color: #007bff;
+            border-radius: 5px;
+            margin-top: 5%;
+            margin-left: 8%;
+            border: 2px solid #007bff;
+        }
