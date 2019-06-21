@@ -18,10 +18,9 @@
             border-bottom: 2px solid #007bff;
             display: flex;
             position: fixed;
-            ;
             top: 0;
             color: #FFFFFF;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: #333;
         }
         
         #nav-container {
@@ -279,7 +278,7 @@
             background-color: #333;
             padding: 20%;
             border-radius: 10px;
-            padding-right: 50%;
+            padding-right: 40%;
         }
         /*---------------------head-section -create----------*/
         
