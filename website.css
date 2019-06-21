@@ -6,11 +6,10 @@
         /*--------body----------*/
         
         body {
-            /* background-color: #333;*/
-            color: #fff;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
             font-weight: 400;
             line-height: 1.5;
+            color: #fff;
         }
         /*-------------navbar--------*/
         
@@ -19,9 +18,10 @@
             border-bottom: 2px solid #007bff;
             display: flex;
             position: fixed;
-            background-color: #333;
-            opacity: 0.8;
+            ;
             top: 0;
+            color: #FFFFFF;
+            background-color: rgba(0, 0, 0, 0.7);
         }
         
         #nav-container {
@@ -55,28 +55,32 @@
         }
         /*--------------------header---------------*/
         
+        #box {
+            height: 10vh;
+        }
+        
         .home-img {
-            background-image: url("img/home.jpg");
+            background-image: url("./img/home.jpg");
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-position: center center;
             background-origin: border-box;
             background-size: 100vw 100vh;
-            /*opacity: 0.8;*/
+            ;
         }
         /*------------left side-------*/
         
         #inner-box {
             width: 99vw;
-            /* background-color: #333;*/
+            background-color: rgba(0, 0, 0, 0.7);
+            ;
             opacity: 0.8;
-            height: 50%;
         }
         
         .container {
-            padding-top: 15%;
-            background-color: #333;
-            height: 30%;
+            padding-top: 10%;
+            background-color: rgba(0, 0, 0, 0.7);
+            ;
             width: auto;
             overflow: hidden;
             padding-left: 7%;
@@ -84,13 +88,19 @@
         
         h1 {
             font-weight: 80;
-            font-size: 50px;
-            margin-bottom: 2%;
+            padding-bottom: 2%;
+            font-size: 60px;
+            margin-bottom: 5%;
+            line-height: 70px;
+        }
+        
+        h1 strong {
+            font-weight: normal;
         }
         
         .rows {
             display: grid;
-            grid-template-rows: auto auto auto;
+            /* grid-template-rows: auto auto auto;*/
             grid-template-columns: auto auto;
             margin-right: 8%;
             width: 100%;
@@ -111,7 +121,7 @@
         }
         
         .icons i {
-            padding: 5%;
+            padding: 20%;
             size: 50%;
             color: #007bff;
             background-color: #fff;
@@ -128,15 +138,15 @@
         /*----------right side----*/
         
         .form-div {
-            padding-right: 9%;
-            padding-top: 6%;
+            padding-right: 3%;
+            padding-top: 5%;
             background-color: #007bff;
             padding-left: 6%;
-            margin-right: 50%;
-            width: 68%;
-            margin-bottom: 90%;
+            margin-right: 35%;
+            width: 85%;
+            margin-bottom: 40%;
             border-radius: 5px 5px 5px 5px;
-            padding-bottom: 4%;
+            padding-bottom: 3%;
             font-size: 20px;
             box-shadow: 2px 2px 2px #007bff;
             box-sizing: border-box;
@@ -144,42 +154,51 @@
         
         .form-div p {
             padding-bottom: 4%;
+            text-align: center;
+            font-size: 17px;
+        }
+        
+        .form-div h2 {
+            text-align: center;
+            font-weight: normal;
         }
         
         form input {
-            padding: 5%;
-            width: 108%;
+            padding: 3%;
+            width: 95%;
             margin-bottom: 5%;
             border-radius: 5px;
             font-size: 20px;
-            border: 2px solid white;
+            border: 1px solid white;
         }
         
         form input[type="submit"] {
             background-color: #007bff;
             padding: 3%;
             color: white;
+            font-size: 15px;
         }
         
         form input[type="submit"]:hover {
             background-color: white;
             color: black;
         }
-        /*-------------section head--------------*/
+        /*-------------explore-section head--------------*/
         
         #container {
             display: flex;
             justify-content: center;
             justify-items: center;
             background-color: #333;
-            padding: 2%;
+            padding: 3%;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
         
         .row1 h1 {
             text-align: center;
             font-weight: 200;
-            font-size: 70px;
+            font-size: 60px;
+            margin-bottom: 0;
         }
         
         .row p {
@@ -187,7 +206,7 @@
         }
         
         .row1 button {
-            width: 15%;
+            width: 10%;
             padding: 1%;
             border: 1px solid #6c757d;
             border-radius: 5% 5% 5% 5%;
@@ -220,7 +239,7 @@
             display: grid;
             grid-template-columns: 50% 50%;
             background-color: #fff;
-            color: black;
+            color: #6c757d;
         }
         
         .row2 img {
@@ -235,12 +254,8 @@
             grid-template-rows: 50% 50%;
         }
         
-        .icon1 {
-            padding: 1%;
-        }
-        
         .col-22 h3 {
-            color: #343a40;
+            color: #6c757d;
             font-size: 30px;
             margin-top: 10%;
             margin-bottom: 1%;
@@ -262,30 +277,36 @@
         
         .icon1 i {
             background-color: #333;
+            padding: 20%;
+            border-radius: 10px;
+            padding-right: 50%;
         }
-        /*---------------------section -create----------*/
+        /*---------------------head-section -create----------*/
         
         #container3 {
             display: flex;
             justify-content: center;
             justify-items: center;
             background-color: #007bff;
-            padding: 2%;
+            padding: 3%;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
         
         .row4 h1 {
             text-align: center;
             font-weight: 200;
-            font-size: 70px;
+            font-size: 60px;
+            margin-bottom: 0;
         }
         
         .row p {
             text-align: center;
+            padding-bottom: 10%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
         
         .row4 button {
-            width: 15%;
+            width: 10%;
             padding: 1%;
             border: 1px solid #fff;
             border-radius: 5% 5% 5% 5%;
@@ -294,8 +315,6 @@
             margin-top: 1%;
             background-color: #007bff;
             color: white;
-            cursor: auto;
-            box-shadow: 2px 2px #6c757d;
         }
         
         .row4 button:hover {
@@ -317,7 +336,6 @@
             display: grid;
             grid-template-columns: 50% 50%;
             background-color: #343a40;
-            ;
             color: #fff;
         }
         
@@ -351,19 +369,122 @@
         
         .col-33 p {
             padding-bottom: 6%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
         
         .icon2 {
             padding-right: 10%;
-            color: white;
         }
         
         .icon2 i {
-            background-color: #333;
+            color: #007bff;
+            background-color: #fff;
+            padding: 14%;
+            border-radius: 10px;
+            padding-left: 10px;
         }
         
         .col-33 {
             padding-left: 15%;
+        }
+        /*----share- section-head--*/
+        
+        #container3 {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            background-color: #007bff;
+            padding: 3%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        
+        .row4 h1 {
+            text-align: center;
+            font-weight: 200;
+            font-size: 60px;
+            margin-bottom: 0;
+        }
+        
+        .row p {
+            text-align: center;
+            padding-bottom: 10%;
+        }
+        
+        .row4 button {
+            width: 10%;
+            padding: 1%;
+            border: 1px solid #fff;
+            border-radius: 5% 5% 5% 5%;
+            position: relative;
+            left: 45%;
+            margin-top: 1%;
+            background-color: #007bff;
+            color: white;
+            cursor: auto;
+            box-shadow: 2px 2px #6c757d;
+        }
+        
+        .row4 button:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        .row4 pre {
+            line-height: 1.5;
+            font-size: 18px;
+        }
+        /*--section-share-explore*/
+        
+        #container2 {
+            overflow: hidden;
+        }
+        
+        .row2 {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            background-color: #fff;
+            color: #6c757d;
+        }
+        
+        .row2 img {
+            border-radius: 50%;
+            width: 80%;
+            margin: 10%;
+        }
+        
+        .cover-content4 {
+            display: grid;
+            display: flex;
+            grid-template-rows: 50% 50%;
+        }
+        
+        .icon1 {
+            padding: 1%;
+        }
+        
+        .col-22 h3 {
+            color: #6c757d;
+            font-size: 30px;
+            margin-top: 10%;
+            margin-bottom: 1%;
+        }
+        
+        .cover-content4 {
+            grid-area: auto;
+            padding-bottom: 5%;
+        }
+        
+        .col-22 p {
+            padding-bottom: 6%;
+        }
+        
+        .icon1 {
+            padding-right: 6%;
+            color: white;
+        }
+        
+        .icon1 i {
+            background-color: #333;
         }
         /*----------------CONTACT-----*/
         
@@ -371,18 +492,22 @@
             background-color: #343a40;
             display: flex;
             justify-content: center;
-            padding: 3%;
+            padding: 2%;
         }
         
         #container6 h1 {
             font-weight: bold;
             font-size: 30px;
+            padding: 0;
+            margin: 0;
         }
         
         #container6 p {
-            padding-bottom: %;
+            padding-bottom: 2%;
             margin-left: 2%;
-            font-size: 20px;
+            font-size: 18px;
+            padding: 0;
+            margin: 0;
         }
         
         #container6 button {
@@ -391,6 +516,16 @@
             background-color: #007bff;
             border-radius: 5px;
             margin-top: 5%;
-            margin-left: 8%;
+            margin-left: 15%;
             border: 2px solid #007bff;
         }
+        
+        #container6 button:hover {
+            opacity: 0.8;
+        }
+        
+        #row {
+            position: relative;
+            left: 2%;
+        }
+        /*--------------media quries--------------*/

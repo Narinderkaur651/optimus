@@ -3,87 +3,91 @@
 
 <head>
     <meta charset="utf=8">
-    <link rel="stylesheet" href="website.css">
-    <title>
-        loop lab website
-    </title>
     <meta name="viewport" content="width=device-width ,initial-scale=1">
-    <!-------font awesome cdn link----------->
+    <!--css-stylesheet-->
+    <link rel="stylesheet" href="website.css">
+    <!--font awesome cdn link-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    <title>
+        Loop Lab
+    </title>
 </head>
 
-<body id="home">
-    <div class="home-img">
-        <!---------navbar------------------->
-        <nav id="navbar">
-            <div id="nav-container"><a href="#" id="logo">LoopLAB</a>
-                <ul id="navbar-ul">
-                    <li class="navbar-items"><a href="#home">Home</a></li>
-                    <li class="navbar-items"><a href="#home">About</a></li>
-                    <li class="navbar-items"><a href="#home">Services</a></li>
-                    <li class="navbar-items"><a href="#home">Contact</a></li>
-                </ul>
-            </div>
-    </div>
+<body>
+    <!---------navbar-------->
+    <!-- TODO - Please use class here -->
+    <nav id="navbar">
+        <div id="nav-container"><a href="#" id="logo">LoopLAB</a>
+            <ul id="navbar-ul">
+
+                <li class="navbar-items">
+                    <a href="#home">Home </a>
+                </li>
+
+                <li class="navbar-items"><a href="#section-head">About</a></li>
+                <li class="navbar-items"><a href="#section-head2">Services</a></li>
+                <li class="navbar-items"><a href="#section-head3">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <!-----------haeder---------->
-    <header id="home-section">
+    <div class="home-img">
+        <header id="home-section">
 
-        <div id="inner-box">
-            <div class="container">
-                <div class="rows">
-                    <div>
-                        <h1>Build <strong>social profiles</strong> and<br> revenue <strong>profits</strong></h1>
+            <div id="inner-box">
+                <div class="container">
+                    <div class="rows">
+                        <div id="box">
+                            <h1>Build <strong>social profiles</strong> and<br> revenue <strong>profits</strong></h1>
 
-                        <div class="div-content">
+                            <div class="div-content">
 
-                            <div class="icons"><i class="far fa-check-square fa-3x"></i></div>
+                                <div class="icons"><i class="fa fa-check fa-2x" aria-hidden="true"></i></div>
 
-                            <div id="content">
-                                <p> molestiae fugit placeat ab consequuntur perspiciatis ullammolestiae fugit placeat ab consequuntur perspiciatis ullam </p>
+                                <div id="content">
+                                    <p> molestiae fugit placeat ab consequuntur perspiciatis ullammolestiae fugit placeat ab consequuntur perspiciatis ullam </p>
+                                </div>
+
+                            </div>
+
+                            <div class="div-content">
+
+                                <div class="icons"><i class="fa fa-check fa-2x" aria-hidden="true"></i></div>
+
+
+                                <div id="content"> molestiae fugit placeat ab consequuntur perspiciatis ullam repudiandae modi dicta, quisquam quia vel explicabo!</div>
+
+                            </div>
+                            <div class="div-content">
+
+                                <div class="icons"><i class="fa fa-check fa-2x" aria-hidden="true"></i></div>
+
+
+                                <div id="content"> molestiae fugit placeat ab consequuntur perspiciatis ullam repudiandae modi dicta, quisquam quia vel explicabo!</div>
+
                             </div>
 
                         </div>
+                        <div class="form-div" class="rows">
+                            <h2>Sign Up Today</h2>
+                            <p>Please fill up for to register</p>
+                            <form>
+                                <input type="text" placeholder="username"><br>
+                                <input type="email" placeholder="Email"><br>
+                                <input type="passward" placeholder="passward"><br>
+                                <input type="passward" placeholder="confirm passward"><br>
+                                <a href="#"><input type="submit"></a>
 
-                        <div class="div-content">
-
-                            <div class="icons"><i class="far fa-check-square fa-3x"></i></div>
-
-
-                            <div id="content"> molestiae fugit placeat ab consequuntur perspiciatis ullam repudiandae modi dicta, quisquam quia vel explicabo!</div>
-
+                            </form>
                         </div>
-                        <div class="div-content">
-
-                            <div class="icons"><i class="far fa-check-square fa-3x"></i></div>
-
-
-                            <div id="content"> molestiae fugit placeat ab consequuntur perspiciatis ullam repudiandae modi dicta, quisquam quia vel explicabo!</div>
-
-                        </div>
-
-                    </div>
-                    <div class="form-div" class="rows">
-                        <h2>Sign Up Today</h2>
-                        <p>Please fill up for to register</p>
-                        <form>
-                            <input type="text" placeholder="username"><br>
-                            <input type="email" placeholder="Email"><br>
-                            <input type="passward" placeholder="passward"><br>
-                            <input type="passward" placeholder="confirm passward"><br>
-                            <a href="#"><input type="submit"></a>
-
-                        </form>
                     </div>
                 </div>
             </div>
-        </div>
 
-        </div>
-    </header>
     </div>
-    <!-----------head-section---------->
+    </header>
+
+    <!----------- explore-head-section---------->
     <section id="section-head">
         <div id="container">
             <div class="row1">
@@ -91,8 +95,7 @@
                     Explore
                 </h1>
                 <p>
-                    <pre>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente recusandae nihil, veniam consectetur 
-                                                 optio dignissimos officia aut fugit?"</pre>
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente recusandae nihil, veniam consectetur optio dignissimos officia aut fugit?"
 
                 </p>
                 <a href=""><button>find out more</button></a>
@@ -111,7 +114,7 @@
                     <div class="cover-content4">
 
                         <div class="icon1">
-                            <i class="far fa-check-square fa-3x  "></i>
+                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
 
 
@@ -122,7 +125,7 @@
                     <div class="cover-content4">
 
                         <div class="icon1">
-                            <i class=" far fa-check-square fa-3x"></i>
+                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
 
                         <div class="pa-cover1">
@@ -134,15 +137,14 @@
         </div>
     </section>
     <!-------------section-create------------>
-    <section id="section-head">
+    <section id="section-head2">
         <div id="container3">
             <div class="row4">
                 <h1>
                     Create
                 </h1>
                 <p>
-                    <pre>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente recusandae nihil, veniam consectetur 
-                                                     optio dignissimos officia aut fugit?"</pre>
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente recusandae nihil, veniam consectetur optio dignissimos officia aut fugit?"
 
                 </p>
                 <a href=""><button>find out more</button></a>
@@ -161,7 +163,7 @@
                     <div class="cover-content2">
 
                         <div class="icon2">
-                            <i class="far fa-check-square fa-3x  "></i>
+                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
 
 
@@ -172,7 +174,7 @@
                     <div class="cover-content2">
 
                         <div class="icon2">
-                            <i class=" far fa-check-square fa-3x"></i>
+                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
 
                         <div class="pa-cover2">
@@ -185,15 +187,14 @@
         </div>
     </section>
     <!---------section-share-head------->
-    <section id="section-head">
+    <section id="section-head3">
         <div id="container3">
             <div class="row4">
                 <h1>
-                    share
+                    Share
                 </h1>
                 <p>
-                    <pre>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente recusandae nihil, veniam consectetur 
-                                                 optio dignissimos officia aut fugit?"</pre>
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente recusandae nihil, veniam consectetur optio dignissimos officia aut fugit?"
 
                 </p>
                 <a href=""><button>find out more</button></a>
@@ -213,7 +214,7 @@
                     <div class="cover-content4">
 
                         <div class="icon1">
-                            <i class="far fa-check-square fa-3x  "></i>
+                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
 
 
@@ -224,7 +225,7 @@
                     <div class="cover-content4">
 
                         <div class="icon1">
-                            <i class=" far fa-check-square fa-3x"></i>
+                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
 
                         <div class="pa-cover1">
@@ -240,7 +241,7 @@
         <div id="container6">
             <div id="row">
                 <h1>LoopLAB</h1>
-                <pre> <p>Copyright © 2019</p></pre>
+                <pre><p>Copyright © 2019</p></pre>
                 <button>Contact US</button>
             </div>
 
