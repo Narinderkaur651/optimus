@@ -1,590 +1,590 @@
-                                                                                                                                                                                    * {
-                                                                                                                                                                                        margin: 0;
-                                                                                                                                                                                        padding: 0;
-                                                                                                                                                                                        box-sizing: border-box;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*--body--*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    body {
-                                                                                                                                                                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                                                                                                                                                                                        font-weight: 400;
-                                                                                                                                                                                        line-height: 1.5;
-                                                                                                                                                                                        color: #fff;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*--navbar--*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    #navbar {
-                                                                                                                                                                                        width: 100vw;
-                                                                                                                                                                                        border-bottom: 2px solid #007bff;
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        position: fixed;
-                                                                                                                                                                                        top: 0;
-                                                                                                                                                                                        color: #FFFFFF;
-                                                                                                                                                                                        background-color: #333;
-                                                                                                                                                                                        opacity: 0.8;
-                                                                                                                                                                                        z-index: 5;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #nav-container {
-                                                                                                                                                                                        padding: 1.5%;
-                                                                                                                                                                                        width: 100vw;
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        justify-content: center;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #nav-container #toggle {
-                                                                                                                                                                                        position: relative;
-                                                                                                                                                                                        left: 60%;
-                                                                                                                                                                                        display: none;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    ul li {
-                                                                                                                                                                                        list-style: none;
-                                                                                                                                                                                        display: inline-block;
-                                                                                                                                                                                        margin-left: 3%;
-                                                                                                                                                                                        color: #fff;
-                                                                                                                                                                                        opacity: 0.3;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    ul li:hover {
-                                                                                                                                                                                        color: whitesmoke;
-                                                                                                                                                                                        opacity: 0.5;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    a {
-                                                                                                                                                                                        text-decoration: none;
-                                                                                                                                                                                        color: white;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #logo {
-                                                                                                                                                                                        padding-left: 5%;
-                                                                                                                                                                                        font-size: 20px;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #navbar-ul {
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        width: 100vw;
-                                                                                                                                                                                        margin-left: 60%;
-                                                                                                                                                                                        justify-content: right;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*--header--*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    .home-img {
-                                                                                                                                                                                        background-image: url("./img/home.jpg");
-                                                                                                                                                                                        background-attachment: fixed;
-                                                                                                                                                                                        background-repeat: no-repeat;
-                                                                                                                                                                                        background-position: center center;
-                                                                                                                                                                                        background-origin: border-box;
-                                                                                                                                                                                        background-size: 100vw 100vh;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*--left side--*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    #inner-box {
-                                                                                                                                                                                        width: 99vw;
-                                                                                                                                                                                        background-color: rgba(0, 0, 0, 0.7);
-                                                                                                                                                                                        opacity: 0.8;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .container {
-                                                                                                                                                                                        padding-top: 13%;
-                                                                                                                                                                                        background-color: rgba(0, 0, 0, 0.7);
-                                                                                                                                                                                        width: auto;
-                                                                                                                                                                                        overflow: hidden;
-                                                                                                                                                                                        padding-left: 7%;
-                                                                                                                                                                                        padding-bottom: 4%;
-                                                                                                                                                                                        /* padding-right: 1%;*/
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    h1 {
-                                                                                                                                                                                        font-weight: 80;
-                                                                                                                                                                                        padding-bottom: 2%;
-                                                                                                                                                                                        font-size: 60px;
-                                                                                                                                                                                        margin-bottom: 5%;
-                                                                                                                                                                                        line-height: 70px;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    h1 strong {
-                                                                                                                                                                                        font-weight: normal;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .rows {
-                                                                                                                                                                                        display: grid;
-                                                                                                                                                                                        /* grid-template-rows: auto auto auto;*/
-                                                                                                                                                                                        grid-template-columns: auto auto;
-                                                                                                                                                                                        margin-right: 8%;
-                                                                                                                                                                                        width: 100%;
-                                                                                                                                                                                        ;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .div-content {
-                                                                                                                                                                                        font-size: 17px;
-                                                                                                                                                                                        margin-bottom: 6%;
-                                                                                                                                                                                        display: grid;
-                                                                                                                                                                                        grid-template-columns: auto auto auto;
-                                                                                                                                                                                        color: whitesmoke;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icons {
-                                                                                                                                                                                        padding-left: 20%;
-                                                                                                                                                                                        margin-right: 40%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icons i {
-                                                                                                                                                                                        padding: 20%;
-                                                                                                                                                                                        size: 50%;
-                                                                                                                                                                                        color: #007bff;
-                                                                                                                                                                                        background-color: #fff;
-                                                                                                                                                                                        border-radius: 10px;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #content {
-                                                                                                                                                                                        margin-right: 10%;
-                                                                                                                                                                                        text-align: left;
-                                                                                                                                                                                        padding-right: 10%;
-                                                                                                                                                                                        padding-left: 5%;
-                                                                                                                                                                                        width: 100%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*----------right side----*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    .form-div {
-                                                                                                                                                                                        background-color: #007bff;
-                                                                                                                                                                                        border-radius: 5px 5px 5px 5px;
-                                                                                                                                                                                        font-size: 20px;
-                                                                                                                                                                                        box-shadow: 2px 2px 2px #007bff;
-                                                                                                                                                                                        box-sizing: border-box;
-                                                                                                                                                                                        display: inline-block;
-                                                                                                                                                                                        margin-right: 40%;
-                                                                                                                                                                                        margin-left: 5%;
-                                                                                                                                                                                        padding-left: 5%;
-                                                                                                                                                                                        width: 75%;
-                                                                                                                                                                                        margin-bottom: auto;
-                                                                                                                                                                                        padding-bottom: 5%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .form-div p {
-                                                                                                                                                                                        padding-bottom: 5%;
-                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                        font-size: 17px;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .form-div h2 {
-                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                        padding-top: 3%;
-                                                                                                                                                                                        clear: left;
-                                                                                                                                                                                        font-weight: normal;
-                                                                                                                                                                                        margin-bottom: 3%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    form input {
-                                                                                                                                                                                        padding: 3%;
-                                                                                                                                                                                        width: 93%;
-                                                                                                                                                                                        margin-bottom: 5%;
-                                                                                                                                                                                        border-radius: 5px;
-                                                                                                                                                                                        font-size: 20px;
-                                                                                                                                                                                        border: 1px solid white;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    form input[type="submit"] {
-                                                                                                                                                                                        background-color: #007bff;
-                                                                                                                                                                                        padding: 3%;
-                                                                                                                                                                                        color: white;
-                                                                                                                                                                                        font-size: 15px;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    form input[type="submit"]:hover {
-                                                                                                                                                                                        background-color: white;
-                                                                                                                                                                                        color: black;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*-------------explore-section head--------------*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container {
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        justify-content: center;
-                                                                                                                                                                                        justify-items: center;
-                                                                                                                                                                                        background-color: #333;
-                                                                                                                                                                                        padding: 5%;
-                                                                                                                                                                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row1 h1 {
-                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                        font-weight: 200;
-                                                                                                                                                                                        font-size: 60px;
-                                                                                                                                                                                        margin-bottom: 0;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row p {
-                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row1 button {
-                                                                                                                                                                                        width: 12%;
-                                                                                                                                                                                        padding: 1%;
-                                                                                                                                                                                        border: 1px solid #6c757d;
-                                                                                                                                                                                        border-radius: 5% 5% 5% 5%;
-                                                                                                                                                                                        position: relative;
-                                                                                                                                                                                        left: 43%;
-                                                                                                                                                                                        margin-top: 1%;
-                                                                                                                                                                                        background-color: transparent;
-                                                                                                                                                                                        color: #6c757d;
-                                                                                                                                                                                        cursor: auto;
-                                                                                                                                                                                        box-shadow: 2px 2px #6c757d;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row1 button:hover {
-                                                                                                                                                                                        background-color: #6c757d;
-                                                                                                                                                                                        color: #fff;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row1 pre {
-                                                                                                                                                                                        line-height: 1.5;
-                                                                                                                                                                                        font-size: 18px;
-                                                                                                                                                                                        ;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*--------------section-explore-----------*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container2 {
-                                                                                                                                                                                        overflow: hidden;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row2 {
-                                                                                                                                                                                        display: grid;
-                                                                                                                                                                                        grid-template-columns: 50% 50%;
-                                                                                                                                                                                        background-color: #fff;
-                                                                                                                                                                                        color: #6c757d;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row2 img {
-                                                                                                                                                                                        border-radius: 50%;
-                                                                                                                                                                                        width: 80%;
-                                                                                                                                                                                        margin: 10%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .cover-content4 {
-                                                                                                                                                                                        display: grid;
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        grid-template-rows: 50% 50%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .col-22 h3 {
-                                                                                                                                                                                        color: #6c757d;
-                                                                                                                                                                                        font-size: 30px;
-                                                                                                                                                                                        margin-top: 10%;
-                                                                                                                                                                                        margin-bottom: 1%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .cover-content4 {
-                                                                                                                                                                                        grid-area: auto;
-                                                                                                                                                                                        padding-bottom: 5%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .col-22 p {
-                                                                                                                                                                                        padding-bottom: 6%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icon1 {
-                                                                                                                                                                                        padding-right: 6%;
-                                                                                                                                                                                        color: white;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icon1 i {
-                                                                                                                                                                                        background-color: #333;
-                                                                                                                                                                                        padding: 20%;
-                                                                                                                                                                                        border-radius: 10px;
-                                                                                                                                                                                        padding-right: 40%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*---------------------head-section -create----------*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container3 {
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        justify-content: center;
-                                                                                                                                                                                        justify-items: center;
-                                                                                                                                                                                        background-color: #007bff;
-                                                                                                                                                                                        padding: 3%;
-                                                                                                                                                                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row4 h1 {
-                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                        font-weight: 200;
-                                                                                                                                                                                        font-size: 60px;
-                                                                                                                                                                                        margin-bottom: 0;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row p {
-                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                        padding-bottom: 10%;
-                                                                                                                                                                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row4 button {
-                                                                                                                                                                                        width: 12%;
-                                                                                                                                                                                        padding: 1%;
-                                                                                                                                                                                        border: 1px solid #fff;
-                                                                                                                                                                                        border-radius: 5% 5% 5% 5%;
-                                                                                                                                                                                        position: relative;
-                                                                                                                                                                                        left: 43%;
-                                                                                                                                                                                        margin-top: 1%;
-                                                                                                                                                                                        background-color: #007bff;
-                                                                                                                                                                                        color: white;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row4 button:hover {
-                                                                                                                                                                                        background-color: white;
-                                                                                                                                                                                        color: black;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row4 pre {
-                                                                                                                                                                                        line-height: 1.5;
-                                                                                                                                                                                        font-size: 18px;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*------------------create ur passion-----------*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container5 {
-                                                                                                                                                                                        overflow: hidden;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row5 {
-                                                                                                                                                                                        display: grid;
-                                                                                                                                                                                        grid-template-columns: 50% 50%;
-                                                                                                                                                                                        background-color: #343a40;
-                                                                                                                                                                                        color: #fff;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row5 img {
-                                                                                                                                                                                        border-radius: 50%;
-                                                                                                                                                                                        width: 80%;
-                                                                                                                                                                                        margin: 10%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .cover-content1 {
-                                                                                                                                                                                        display: grid;
-                                                                                                                                                                                        grid-template-rows: 50% 50%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icon2 {
-                                                                                                                                                                                        padding: 1%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .col-33 h3 {
-                                                                                                                                                                                        color: #fff;
-                                                                                                                                                                                        font-size: 30px;
-                                                                                                                                                                                        margin-top: 10%;
-                                                                                                                                                                                        margin-bottom: 1%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .cover-content2 {
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        grid-area: auto;
-                                                                                                                                                                                        padding-bottom: 5%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .col-33 p {
-                                                                                                                                                                                        padding-bottom: 6%;
-                                                                                                                                                                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icon2 {
-                                                                                                                                                                                        padding-right: 10%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icon2 i {
-                                                                                                                                                                                        color: #007bff;
-                                                                                                                                                                                        background-color: #fff;
-                                                                                                                                                                                        padding: 14%;
-                                                                                                                                                                                        border-radius: 10px;
-                                                                                                                                                                                        padding-left: 10px;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .col-33 {
-                                                                                                                                                                                        padding-left: 15%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*----share- section-head--*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container3 {
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        justify-content: center;
-                                                                                                                                                                                        justify-items: center;
-                                                                                                                                                                                        background-color: #007bff;
-                                                                                                                                                                                        padding: 3%;
-                                                                                                                                                                                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row4 h1 {
-                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                        font-weight: 200;
-                                                                                                                                                                                        font-size: 60px;
-                                                                                                                                                                                        margin-bottom: 0;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row p {
-                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                        padding-bottom: 10%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row4 button {
-                                                                                                                                                                                        width: 12%;
-                                                                                                                                                                                        padding: 1%;
-                                                                                                                                                                                        border: 1px solid #fff;
-                                                                                                                                                                                        border-radius: 5% 5% 5% 5%;
-                                                                                                                                                                                        position: relative;
-                                                                                                                                                                                        left: 45%;
-                                                                                                                                                                                        margin-top: 1%;
-                                                                                                                                                                                        background-color: #007bff;
-                                                                                                                                                                                        color: white;
-                                                                                                                                                                                        cursor: auto;
-                                                                                                                                                                                        box-shadow: 2px 2px #6c757d;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row4 button:hover {
-                                                                                                                                                                                        background-color: white;
-                                                                                                                                                                                        color: black;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row4 pre {
-                                                                                                                                                                                        line-height: 1.5;
-                                                                                                                                                                                        font-size: 18px;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*--section-share-explore*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container2 {
-                                                                                                                                                                                        overflow: hidden;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row2 {
-                                                                                                                                                                                        display: grid;
-                                                                                                                                                                                        grid-template-columns: 50% 50%;
-                                                                                                                                                                                        background-color: #fff;
-                                                                                                                                                                                        color: #6c757d;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .row2 img {
-                                                                                                                                                                                        border-radius: 50%;
-                                                                                                                                                                                        width: 80%;
-                                                                                                                                                                                        margin: 10%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .cover-content4 {
-                                                                                                                                                                                        display: grid;
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        grid-template-rows: 50% 50%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icon1 {
-                                                                                                                                                                                        padding: 1%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .col-22 h3 {
-                                                                                                                                                                                        color: #6c757d;
-                                                                                                                                                                                        font-size: 30px;
-                                                                                                                                                                                        margin-top: 10%;
-                                                                                                                                                                                        margin-bottom: 1%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .cover-content4 {
-                                                                                                                                                                                        grid-area: auto;
-                                                                                                                                                                                        padding-bottom: 5%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .col-22 p {
-                                                                                                                                                                                        padding-bottom: 6%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icon1 {
-                                                                                                                                                                                        padding-right: 6%;
-                                                                                                                                                                                        color: white;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    .icon1 i {
-                                                                                                                                                                                        background-color: #333;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*----------------CONTACT-----*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container6 {
-                                                                                                                                                                                        background-color: #343a40;
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                        justify-content: center;
-                                                                                                                                                                                        padding: 2%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container6 h1 {
-                                                                                                                                                                                        font-weight: bold;
-                                                                                                                                                                                        font-size: 30px;
-                                                                                                                                                                                        padding: 0;
-                                                                                                                                                                                        margin: 0;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container6 p {
-                                                                                                                                                                                        padding-bottom: 2%;
-                                                                                                                                                                                        margin-left: 2%;
-                                                                                                                                                                                        font-size: 18px;
-                                                                                                                                                                                        padding: 0;
-                                                                                                                                                                                        margin: 0;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container6 button {
-                                                                                                                                                                                        padding: 6%;
-                                                                                                                                                                                        color: white;
-                                                                                                                                                                                        background-color: #007bff;
-                                                                                                                                                                                        border-radius: 5px;
-                                                                                                                                                                                        margin-top: 5%;
-                                                                                                                                                                                        margin-left: 15%;
-                                                                                                                                                                                        border: 2px solid #007bff;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #container6 button:hover {
-                                                                                                                                                                                        opacity: 0.8;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    
-                                                                                                                                                                                    #row {
-                                                                                                                                                                                        position: relative;
-                                                                                                                                                                                        left: 2%;
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*--media quries--*/
-                                                                                                                                                                                    /*--for mobile-display-*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    @media only screen and (max-width: 600px) {
-                                                                                                                                                                                        ul li,
-                                                                                                                                                                                        #box {
-                                                                                                                                                                                            display: none;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        .rows,
-                                                                                                                                                                                        .row2,
-                                                                                                                                                                                        .row5 {
-                                                                                                                                                                                            display: block;
-                                                                                                                                                                                            padding-top: 5%;
-                                                                                                                                                                                            padding-left: 3%;
-                                                                                                                                                                                            padding-right: 3%;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        .row4 button,
-                                                                                                                                                                                        .row1 button {
-                                                                                                                                                                                            max-height: 10%;
-                                                                                                                                                                                            position: relative;
-                                                                                                                                                                                            left: 30%;
-                                                                                                                                                                                            width: 40%;
-                                                                                                                                                                                            margin-top: 2%;
-                                                                                                                                                                                            padding-bottom: 4%;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        .form-div {
-                                                                                                                                                                                            margin-right: 2%;
-                                                                                                                                                                                            width: 90%;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        .container {
-                                                                                                                                                                                            padding-left: 0;
-                                                                                                                                                                                            padding-bottom: 30%;
-                                                                                                                                                                                            padding-top: 30%;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        .icon1 i {
-                                                                                                                                                                                            padding-right: 18%;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        #nav-container #toggle {
-                                                                                                                                                                                            display: inline;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        .icon1 {
-                                                                                                                                                                                            /* padding-right: 5%;*/
-                                                                                                                                                                                        }
-                                                                                                                                                                                    }
-                                                                                                                                                                                    /*--for medium divices*/
-                                                                                                                                                                                    
-                                                                                                                                                                                    @media only screen and (max-width:1200px) {}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--body--*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+/*--navbar--*/
+
+#navbar {
+    width: 100vw;
+    border-bottom: 2px solid #007bff;
+    display: flex;
+    position: fixed;
+    top: 0;
+    color: #FFFFFF;
+    background-color: #333;
+    opacity: 0.8;
+    z-index: 5;
+}
+
+#nav-container {
+    padding: 1%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-container #toggle {
+    position: relative;
+    left: 60%;
+    display: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 3%;
+    color: #fff;
+    opacity: 0.3;
+}
+
+ul li:hover {
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+#navbar-ul {
+    display: flex;
+    width: 100vw;
+    margin-left: 60%;
+    justify-content: right;
+}
+/*--header--*/
+
+.home-img {
+    background-image: url("./img/home.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: border-box;
+    background-size: 100vw 100vh;
+}
+/*--left side--*/
+
+#inner-box {
+    width: 99vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
+}
+
+.container {
+    padding-top: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: auto;
+    overflow: hidden;
+    padding-left: 7%;
+    padding-bottom: 4%;
+    /* padding-right: 1%;*/
+}
+
+h1 {
+    font-weight: 80;
+    padding-bottom: 2%;
+    font-size: 60px;
+    margin-bottom: 5%;
+    line-height: 70px;
+}
+
+h1 strong {
+    font-weight: normal;
+}
+
+.rows {
+    display: grid;
+    /* grid-template-rows: auto auto auto;*/
+    grid-template-columns: auto auto;
+    margin-right: 8%;
+    width: 100%;
+    ;
+}
+
+.div-content {
+    font-size: 17px;
+    margin-bottom: 6%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: whitesmoke;
+}
+
+.icons {
+    padding-left: 20%;
+    margin-right: 40%;
+}
+
+.icons i {
+    padding: 20%;
+    size: 50%;
+    color: #007bff;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#content {
+    margin-right: 10%;
+    text-align: left;
+    padding-right: 10%;
+    padding-left: 5%;
+    width: 100%;
+}
+/*----------right side----*/
+
+.form-div {
+    background-color: #007bff;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px #007bff;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+    width: 77%;
+    margin-bottom: auto;
+    padding-bottom: 5%;
+}
+
+.form-div p {
+    padding-bottom: 5%;
+    text-align: center;
+    text-align: center;
+    font-size: 17px;
+}
+
+.form-div h2 {
+    text-align: center;
+    padding-top: 3%;
+    clear: left;
+    font-weight: normal;
+    margin-bottom: 3%;
+}
+
+form input {
+    padding: 3%;
+    width: 93%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid white;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    padding: 3%;
+    color: white;
+    font-size: 15px;
+}
+
+form input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+/*-------------explore-section head--------------*/
+
+#container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #333;
+    padding: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.row1 h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.row p {
+    text-align: center;
+}
+
+.row1 button {
+    width: 12%;
+    padding: 1%;
+    border: 1px solid #6c757d;
+    border-radius: 5% 5% 5% 5%;
+    position: relative;
+    left: 43%;
+    margin-top: 1%;
+    background-color: transparent;
+    color: #6c757d;
+    cursor: auto;
+    box-shadow: 2px 2px #6c757d;
+}
+
+.row1 button:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.row1 pre {
+    line-height: 1.5;
+    font-size: 18px;
+    ;
+}
+/*--------------section-explore-----------*/
+
+#container2 {
+    overflow: hidden;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+    color: #6c757d;
+}
+
+.row2 img {
+    border-radius: 50%;
+    width: 80%;
+    margin: 10%;
+}
+
+.cover-content4 {
+    display: grid;
+    display: flex;
+    grid-template-rows: 50% 50%;
+}
+
+.col-22 h3 {
+    color: #6c757d;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.cover-content4 {
+    grid-area: auto;
+    padding-bottom: 5%;
+}
+
+.col-22 p {
+    padding-bottom: 6%;
+}
+
+.icon1 {
+    padding-right: 6%;
+    color: white;
+}
+
+.icon1 i {
+    background-color: #333;
+    padding: 20%;
+    border-radius: 10px;
+    padding-right: 40%;
+}
+/*---------------------head-section -create----------*/
+
+#container3 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #007bff;
+    padding: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.row4 h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.row p {
+    text-align: center;
+    padding-bottom: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.row4 button {
+    width: 12%;
+    padding: 1%;
+    border: 1px solid #fff;
+    border-radius: 5% 5% 5% 5%;
+    position: relative;
+    left: 43%;
+    margin-top: 1%;
+    background-color: #007bff;
+    color: white;
+}
+
+.row4 button:hover {
+    background-color: white;
+    color: black;
+}
+
+.row4 pre {
+    line-height: 1.5;
+    font-size: 18px;
+}
+/*------------------create ur passion-----------*/
+
+#container5 {
+    overflow: hidden;
+}
+
+.row5 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.row5 img {
+    border-radius: 50%;
+    width: 80%;
+    margin: 10%;
+}
+
+.cover-content1 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.icon2 {
+    padding: 1%;
+}
+
+.col-33 h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.cover-content2 {
+    display: flex;
+    grid-area: auto;
+    padding-bottom: 5%;
+}
+
+.col-33 p {
+    padding-bottom: 6%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.icon2 {
+    padding-right: 10%;
+}
+
+.icon2 i {
+    color: #007bff;
+    background-color: #fff;
+    padding: 14%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.col-33 {
+    padding-left: 15%;
+}
+/*----share- section-head--*/
+
+#container3 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #007bff;
+    padding: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.row4 h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.row p {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.row4 button {
+    width: 12%;
+    padding: 1%;
+    border: 1px solid #fff;
+    border-radius: 5% 5% 5% 5%;
+    position: relative;
+    left: 45%;
+    margin-top: 1%;
+    background-color: #007bff;
+    color: white;
+    cursor: auto;
+    box-shadow: 2px 2px #6c757d;
+}
+
+.row4 button:hover {
+    background-color: white;
+    color: black;
+}
+
+.row4 pre {
+    line-height: 1.5;
+    font-size: 18px;
+}
+/*--section-share-explore*/
+
+#container2 {
+    overflow: hidden;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+    color: #6c757d;
+}
+
+.row2 img {
+    border-radius: 50%;
+    width: 80%;
+    margin: 10%;
+}
+
+.cover-content4 {
+    display: grid;
+    display: flex;
+    grid-template-rows: 50% 50%;
+}
+
+.icon1 {
+    padding: 1%;
+}
+
+.col-22 h3 {
+    color: #6c757d;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.cover-content4 {
+    grid-area: auto;
+    padding-bottom: 5%;
+}
+
+.col-22 p {
+    padding-bottom: 6%;
+}
+
+.icon1 {
+    padding-right: 6%;
+    color: white;
+}
+
+.icon1 i {
+    background-color: #333;
+}
+/*----------------CONTACT-----*/
+
+#container6 {
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+#container6 h1 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+#container6 p {
+    padding-bottom: 2%;
+    margin-left: 2%;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+#container6 button {
+    padding: 6%;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 2px solid #007bff;
+}
+
+#container6 button:hover {
+    opacity: 0.8;
+}
+
+#row {
+    position: relative;
+    left: 2%;
+}
+/*--media quries--*/
+/*--for mobile-display-*/
+
+@media only screen and (max-width: 600px) {
+    ul li,
+    #box {
+        display: none;
+    }
+    .rows,
+    .row2,
+    .row5 {
+        display: block;
+        padding-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .row4 button,
+    .row1 button {
+        max-height: 10%;
+        position: relative;
+        left: 30%;
+        width: 40%;
+        margin-top: 2%;
+        padding-bottom: 4%;
+    }
+    .form-div {
+        margin-right: 2%;
+        width: 90%;
+    }
+    .container {
+        padding-left: 0;
+        padding-bottom: 30%;
+        padding-top: 30%;
+    }
+    .icon1 i {
+        padding-right: 18%;
+    }
+    #nav-container #toggle {
+        display: inline;
+    }
+    .icon1 {
+        /* padding-right: 5%;*/
+    }
+}
+/*--for medium divices*/
+
+
