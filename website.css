@@ -130,7 +130,7 @@ h1 strong {
 }
 
 .icons i {
-    padding: 20%;
+    padding: 15%;
     size: 50%;
     color: #007bff;
     background-color: #fff;
@@ -156,7 +156,7 @@ h1 strong {
     margin-right: 40%;
     margin-left: 5%;
     padding-left: 5%;
-    width: 77%;
+    width: 75%;
     margin-bottom: auto;
     padding-bottom: 5%;
 }
@@ -243,7 +243,12 @@ form input[type="submit"]:hover {
     ;
 }
 /*--------------section-explore-----------*/
+/*.animated{animation-duration:30s;animation-delay: initial;
+  
+    animation-iteration-count: infinite;  animation-timing-function: ;
+}*/
 
+ 
 #container2 {
     overflow: hidden;
 }
@@ -290,9 +295,9 @@ form input[type="submit"]:hover {
 
 .icon1 i {
     background-color: #333;
-    padding: 20%;
+    padding: 15%;
     border-radius: 10px;
-    padding-right: 40%;
+    padding-right: 30%;
 }
 /*---------------------head-section -create----------*/
 
@@ -392,9 +397,9 @@ form input[type="submit"]:hover {
 .icon2 i {
     color: #007bff;
     background-color: #fff;
-    padding: 14%;
-    border-radius: 10px;
-    padding-left: 10px;
+    padding: 15%;
+    border-radius: 10px;padding-right: 25%;
+    
 }
 
 .col-33 {
