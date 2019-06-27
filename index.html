@@ -9,12 +9,36 @@
     <!--font awesome cdn link-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
     <title>
         Loop Lab
     </title>
+   <script>   
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 800,
+            delay: 300,
+            once: true,
+            disable: 'mobile'
+         });
+       
+    </script>
+    <script
+     src="https://code.jquery.com/jquery-3.4.1.js"
+     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+     crossorigin="anonymous"></script>
+     <script> 
+      $(document).ready(function(){
+            $("#toggle").click(function(){
+                $(".navbar-items").slideToggle(500);
+            });
+        });
+    </script>
+    
 </head>
 
-<body>
+<body data-aos="slideDown slideUp">
     <!--navbar-->
 
     <nav id="navbar">
@@ -33,7 +57,7 @@
         </div>
     </nav>
     <!--haeder-->
-    <div class="home-img">
+    <div class="home-img" >
         <header id="home-section">
 
             <div id="inner-box">

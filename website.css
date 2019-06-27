@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 /*--body--*/
+/*.animated{animation-duration:30s;animation-delay: initial;
+  
+    animation-iteration-count: initial;  animation-timing-function:ease-in-out ; transition: all 0.5s ease;
+    will-change: transform;
+}*/
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -243,10 +248,7 @@ form input[type="submit"]:hover {
     ;
 }
 /*--------------section-explore-----------*/
-/*.animated{animation-duration:30s;animation-delay: initial;
-  
-    animation-iteration-count: infinite;  animation-timing-function: ;
-}*/
+
 
  
 #container2 {
@@ -344,7 +346,7 @@ form input[type="submit"]:hover {
     line-height: 1.5;
     font-size: 18px;
 }
-/*------------------create ur passion-----------*/
+/*--create ur passion--*/
 
 #container5 {
     overflow: hidden;
@@ -550,10 +552,12 @@ form input[type="submit"]:hover {
 /*--for mobile-display-*/
 
 @media only screen and (max-width: 600px) {
-    ul li,
+    
     #box {
-        display: none;
+        display:none;
     }
+    #navbar-ul{display:block;position:relative;right:40%;}
+   
     .rows,
     .row2,
     .row5 {
@@ -586,6 +590,7 @@ form input[type="submit"]:hover {
     #nav-container #toggle {
         display: inline;
     }
+    #nav-container #toggle:hover{}
     .icon1 {
         /* padding-right: 5%;*/
     }
