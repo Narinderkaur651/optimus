@@ -557,7 +557,7 @@ form input[type="submit"]:hover {
         display:none;
     }
     #navbar-ul{display:block;position:relative;right:40%;}
-   
+   #navbar{display: block;}
     .rows,
     .row2,
     .row5 {
