@@ -2,265 +2,269 @@
 <html>
 
 <head>
-    <meta charset="utf=8">
-    <meta name="viewport" content="width=device-width ,initial-scale=1">
-    <!--css-stylesheet-->
-    <link rel="stylesheet" href="website.css">
-    <!--font awesome cdn link-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-
-    <title>
-        Loop Lab
-    </title>
-   <script>   
-        AOS.init({
-            easing: 'ease-out-back',
-            duration: 800,
-            delay: 300,
-            once: true,
-            disable: 'mobile'
-         });
-     </script>
-    
+    <title>Looplab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body data-aos="slideDown slideUp">
-    <!--navbar-->
-
-    <nav id="navbar">
-        <div id="nav-container"><a href="#" id="logo">LoopLAB</a>
-            <div id="toggle"><i class="fas fa-bars"></i></div>
-            <ul id="navbar-ul">
-
-                <li class="navbar-items">
-                    <a href="#home-section">Home </a>
-                </li>
-
-                <li class="navbar-items"><a href="#section-head">About</a></li>
-                <li class="navbar-items"><a href="#section-head2">Services</a></li>
-                <li class="navbar-items"><a href="#section-head3">Contact</a></li>
-            </ul>
+<body id="home">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">LoopLAB</a>
+            <!-- Toggle button  -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#explore-head-section" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#create-head-section" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#main-footer" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <!--haeder-->
-    <div class="home-img" >
-        <header id="home-section">
-
-            <div id="inner-box">
+    <!-- HOME SECTION -->
+    <header id="home-section">
+        <div class="dark-effect">
+            <div class="home-inner">
                 <div class="container">
-                    <div class="rows">
-                        <div id="box">
-                            <h1>Build <strong>social profiles</strong> and<br> revenue <strong>profits</strong></h1>
-
-                            <div class="div-content">
-
-                                <div class="icons"><i class="fa fa-check fa-2x" aria-hidden="true"></i></div>
-
-                                <div id="content">
-                                    <p> 
-                                             molestiae fugit placeat ab consequuntur perspiciatis ullammolestiae fugit placeat ab consequuntur perspiciatis ullam </p>
-                                 molestiae fugit placeat ab consequuntur
-                                            </div>
-
+                    <div class="row">
+                        <div class="col-lg-8 d-none d-lg-block">
+                            <h1 class="display-4">Build <strong>social profiles</strong> and revenue
+                                <strong>profits</strong></h1>
+                            <div class="d-flex">
+                                <div class="p-4 align-self-start">
+                                    <i class="fa fa-check fa-2x" aria-hidden="true"></i>
+                                </div>
+                                <div class="p-4 align-self-end">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis
+                                    consectetur eaque nemo, incidunt maiores!
+                                </div>
                             </div>
-
-                            <div class="div-content">
-
-                                <div class="icons"><i class="fa fa-check fa-2x" aria-hidden="true"></i></div>
-
-
-                                <div id="content"> molestiae fugit placeat ab consequuntur perspiciatis ullam repudiandae modi dicta, quisquam quia vel explicabo!</div>
-
+                            <div class="d-flex">
+                                <div class="p-4 align-self-start">
+                                    <i class="fa fa-check fa-2x" aria-hidden="true"></i>
+                                </div>
+                                <div class="p-4 align-self-end">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis
+                                    consectetur eaque nemo, incidunt maiores!
+                                </div>
                             </div>
-                            <div class="div-content">
-
-                                <div class="icons"><i class="fa fa-check fa-2x" aria-hidden="true"></i></div>
-
-
-                                <div id="content"> molestiae fugit placeat ab consequuntur perspiciatis ullam repudiandae modi dicta, quisquam quia vel explicabo!</div>
-
+                            <div class="d-flex">
+                                <div class="p-4 align-self-start">
+                                    <i class="fa fa-check fa-2x" aria-hidden="true"></i>
+                                </div>
+                                <div class="p-4 align-self-end">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis
+                                    consectetur eaque nemo, incidunt maiores!
+                                </div>
                             </div>
-
                         </div>
-                        <div class="form-div" class="rows" >
-                            <h2>Sign Up Today</h2>
-                            <p>Please fill up for to register</p>
-                            <form>
-                                <input type="text" placeholder="username"><br>
-                                <input type="email" placeholder="Email"><br>
-                                <input type="passward" placeholder="passward"><br>
-                                <input type="passward" placeholder="confirm passward"><br>
-                                <a href="#"><input type="submit"></a>
-
-                            </form>
+                        <div class="col-lg-4">
+                            <div class=" bg-primary text-center user-form">
+                                <div class="form-body">
+                                    <h3 class="form-title">Sign Up Today</h3>
+                                    <p class="form-text">Please fill out form to register</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-lg"
+                                                placeholder="Username">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control form-control-lg"
+                                                placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg"
+                                                placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg"
+                                                placeholder="Confirm Password">
+                                        </div>
+                                        <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-    </div>
+        </div>
     </header>
-
-    <!-- explore-head-section-->
-    <section id="section-head" >
-        <div id="container">
-            <div class="row1">
-                <h1>
-                    Explore
-                </h1>
-                <p>
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente recusandae nihil, veniam consectetur optio dignissimos officia aut fugit?"
-
-                </p>
-                <a href=""><button>find out more</button></a>
+    <!-- Explore Head -->
+    <section id="explore-head-section">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4">Explore</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente
+                        recusandae nihil, veniam consectetur optio dignissimos officia aut fugit?</p>
+                    <a href="#" class="btn btn-outline-secondary">Find Out More</a>
+                </div>
             </div>
         </div>
     </section>
-    <!--explore -section-->
-    <section id="explore">
-        <div id="container2">
-            <div class="row2">
-                <div class="col-11"><img src="C:\Users\narinder.kaur\Downloads\bootstrap_loopLAB\img\explore-section1.jpg"></div>
-                <div class="col-22">
+    <!-- Explore Section -->
+    <section id="explore-section" class="bg-light text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <img src="img/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6">
                     <h3>Explore & Connect</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis recusandae eum necessitatibus dolor nisi veritatis, id temporibus ratione distinctio vero.</p>
-
-                    <div class="cover-content4">
-
-                        <div class="icon1">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis recusandae eum necessitatibus
+                        dolor nisi veritatis, id temporibus ratione distinctio vero.</p>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
                             <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
-
-
-                        <div class="pa-cover1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur eaque nemo, incidunt maiores!
+                        <div class="p-4 align-self-end">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur
+                            eaque nemo, incidunt maiores!
                         </div>
                     </div>
-                    <div class="cover-content4">
-
-                        <div class="icon1">
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
                             <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
-
-                        <div class="pa-cover1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur eaque nemo, incidunt maiores!
+                        <div class="p-4 align-self-end">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur
+                            eaque nemo, incidunt maiores!
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--section-create-->
-    <section id="section-head2">
-        <div id="container3">
-            <div class="row4">
-                <h1>
-                    Create
-                </h1>
-                <p>
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente recusandae nihil, veniam consectetur optio dignissimos officia aut fugit?"
 
-                </p>
-                <a href=""><button>find out more</button></a>
-            </div>
-        </div>
-    </section>
-    <!--section-your passion-->
-    <section id="explore">
-        <div id="container5">
-            <div class="row5">
-
-                <div class="col-33">
-                    <h3>Create Your Passiont</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis recusandae eum necessitatibus dolor nisi veritatis, id temporibus ratione distinctio vero.</p>
-
-                    <div class="cover-content2">
-
-                        <div class="icon2">
-                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
-                        </div>
-
-
-                        <div class="pa-cover1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur eaque nemo, incidunt maiores!
-                        </div>
-                    </div>
-                    <div class="cover-content2">
-
-                        <div class="icon2">
-                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
-                        </div>
-
-                        <div class="pa-cover2">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur eaque nemo, incidunt maiores!
-                        </div>
-                    </div>
+    <!-- Create Head -->
+    <section id="create-head-section" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4">Create</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente
+                        recusandae nihil, veniam consectetur optio dignissimos officia aut fugit?</p>
+                    <a href="#" class="btn btn-outline-light">Find Out More</a>
                 </div>
-                <div class="col-11"><img src="C:\Users\narinder.kaur\Downloads\bootstrap_loopLAB\img\create-section1.jpg"></div>
             </div>
         </div>
     </section>
-    <!--section-share-head-->
-    <section id="section-head3">
-        <div id="container3">
-            <div class="row4">
-                <h1>
-                    Share
-                </h1>
-                <p>
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente recusandae nihil, veniam consectetur optio dignissimos officia aut fugit?"
 
-                </p>
-                <a href=""><button>find out more</button></a>
-            </div>
-        </div>
-    </section>
-    <!--section-share-explore-->
-    <section id="explore">
-        <div id="container2">
-            <div class="row2">
-                <div class="col-11"><img src="C:\Users\narinder.kaur\Downloads\bootstrap_loopLAB\img\share-section1.jpg"></div>
-                <div class="col-22">
-                    <h3>
-                        Share Your Experience</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis recusandae eum necessitatibus dolor nisi veritatis, id temporibus ratione distinctio vero.</p>
+    <!-- Create Section -->
+    <section id="create-section" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-2">
 
-                    <div class="cover-content4">
-
-                        <div class="icon1">
+                    <img src="img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6 order-1">
+                    <h3>Create Your Passion</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis recusandae eum necessitatibus
+                        dolor nisi veritatis, id temporibus ratione distinctio vero.</p>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
                             <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
-
-
-                        <div class="pa-cover1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur eaque nemo, incidunt maiores!
+                        <div class="p-4 align-self-end">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur
+                            eaque nemo, incidunt maiores!
                         </div>
                     </div>
-                    <div class="cover-content4">
-
-                        <div class="icon1">
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
                             <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                         </div>
-
-                        <div class="pa-cover1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur eaque nemo, incidunt maiores!
+                        <div class="p-4 align-self-end">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur
+                            eaque nemo, incidunt maiores!
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--contact-section-->
-    <footer id="contact">
-        <div id="container6">
-            <div id="row">
-                <h1>LoopLAB</h1>
-                <pre><p>Copyright © 2019</p></pre>
-                <button>Contact US</button>
-            </div>
 
+    <!-- Share Head -->
+    <section id="share-head-section" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="display-4">Share</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus sapiente
+                        recusandae nihil, veniam consectetur optio dignissimos officia aut fugit?</p>
+                    <a href="#" class="btn btn-outline-light">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Share Section -->
+    <section id="share-section" class="bg-light text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h3>Share Your Experience</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis recusandae eum necessitatibus
+                        dolor nisi veritatis, id temporibus ratione distinctio vero.</p>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur
+                            eaque nemo, incidunt maiores!
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="p-4 align-self-start">
+                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque perspiciatis consectetur
+                            eaque nemo, incidunt maiores!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-4">
+                    <h1 class="h3">LoopLAB</h1>
+                    <p>Copyright &copy;</p>
+                    <button class="btn btn-primary">Contact Us</button>
+                </div>
+            </div>
         </div>
     </footer>
 
